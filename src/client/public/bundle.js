@@ -22073,6 +22073,10 @@
 	
 	var _axios2 = _interopRequireDefault(_axios);
 	
+	var _navBar = __webpack_require__(/*! ./navBar.jsx */ 205);
+	
+	var _navBar2 = _interopRequireDefault(_navBar);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	var MainComp = _react2.default.createClass({
@@ -22091,11 +22095,7 @@
 			return _react2.default.createElement(
 				'div',
 				null,
-				_react2.default.createElement(
-					'h1',
-					null,
-					'Test'
-				)
+				_react2.default.createElement(_navBar2.default, null)
 			);
 		}
 	
@@ -23666,6 +23666,97 @@
 	  };
 	};
 
+
+/***/ },
+/* 204 */
+/*!**************************************!*\
+  !*** ./src/client/app/headerRow.jsx ***!
+  \**************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var headerRow = _react2.default.createClass({
+		displayName: "headerRow",
+	
+	
+		render: function render() {
+			return _react2.default.createElement(
+				"div",
+				{ className: "navbar navbar-fixed-top header-row" },
+				_react2.default.createElement(
+					"div",
+					{ id: "left-header-col" },
+					_react2.default.createElement(
+						"div",
+						{ id: "left-header-col-1" },
+						_react2.default.createElement(
+							"a",
+							{ href: "#inbox", title: "Gmail", id: "left-header-col-2" },
+							_react2.default.createElement(
+								"span",
+								{ id: "left-header-span" },
+								_react2.default.createElement("img", { className: "google-logo", src: "./image/google_2015_logo.png" })
+							)
+						)
+					)
+				),
+				_react2.default.createElement(
+					"div",
+					{ className: "" },
+					"Hello"
+				),
+				_react2.default.createElement(
+					"div",
+					{ className: "" },
+					"Yello"
+				)
+			);
+		}
+	});
+	
+	module.exports = headerRow;
+
+/***/ },
+/* 205 */
+/*!***********************************!*\
+  !*** ./src/client/app/navBar.jsx ***!
+  \***********************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _headerRow = __webpack_require__(/*! ./headerRow.jsx */ 204);
+	
+	var _headerRow2 = _interopRequireDefault(_headerRow);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var navBar = _react2.default.createClass({
+		displayName: 'navBar',
+	
+	
+		render: function render() {
+			return _react2.default.createElement(
+				'div',
+				null,
+				_react2.default.createElement(_headerRow2.default, null)
+			);
+		}
+	
+	});
+	
+	module.exports = navBar;
 
 /***/ }
 /******/ ]);
