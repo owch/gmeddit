@@ -22,7 +22,6 @@ var MainComp = React.createClass({
 			</div>
 		);
 	}
-
 });
 
 export default MainComp; 

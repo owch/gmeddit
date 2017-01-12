@@ -22098,7 +22098,6 @@
 				_react2.default.createElement(_navBar2.default, null)
 			);
 		}
-	
 	});
 	
 	exports.default = MainComp;
@@ -23692,30 +23691,42 @@
 				{ className: "navbar navbar-fixed-top header-row" },
 				_react2.default.createElement(
 					"div",
-					{ id: "left-header-col" },
+					{ id: "topbar" },
 					_react2.default.createElement(
 						"div",
-						{ id: "left-header-col-1" },
+						{ id: "left-header-col" },
 						_react2.default.createElement(
-							"a",
-							{ href: "#inbox", title: "Gmail", id: "left-header-col-2" },
+							"div",
+							{ id: "left-header-col-1" },
 							_react2.default.createElement(
-								"span",
-								{ id: "left-header-span" },
-								_react2.default.createElement("img", { className: "google-logo", src: "./image/google_2015_logo.png" })
+								"a",
+								{ href: "#inbox", title: "Gmail", id: "left-header-col-2" },
+								_react2.default.createElement(
+									"span",
+									{ id: "left-header-span" },
+									_react2.default.createElement("img", { className: "google-logo", src: "./image/google_2015_logo.png" })
+								)
 							)
 						)
+					),
+					_react2.default.createElement(
+						"div",
+						{ className: "mid-header-col" },
+						_react2.default.createElement(
+							"div",
+							{ className: "mid-header-col-2" },
+							_react2.default.createElement(
+								"div",
+								{ className: "mid-header-col-3" },
+								"HelloassaasasassaHelloassaasasassaHelloassaasasassaHelloassaasasassaHelloassaasasassa"
+							)
+						)
+					),
+					_react2.default.createElement(
+						"div",
+						{ className: "" },
+						"Yello"
 					)
-				),
-				_react2.default.createElement(
-					"div",
-					{ className: "" },
-					"Hello"
-				),
-				_react2.default.createElement(
-					"div",
-					{ className: "" },
-					"Yello"
 				)
 			);
 		}
