@@ -23704,7 +23704,7 @@
 								_react2.default.createElement(
 									"span",
 									{ id: "left-header-span" },
-									_react2.default.createElement("img", { className: "google-logo", src: "./image/google_2015_logo.png" })
+									_react2.default.createElement("img", { className: "google-logo", src: "./image/google_logo.png" })
 								)
 							)
 						)
@@ -23712,21 +23712,10 @@
 					_react2.default.createElement(
 						"div",
 						{ className: "mid-header-col" },
-						_react2.default.createElement(
-							"div",
-							{ className: "mid-header-col-2" },
-							_react2.default.createElement(
-								"div",
-								{ className: "mid-header-col-3" },
-								"HelloassaasasassaHelloassaasasassaHelloassaasasassaHelloassaasasassaHelloassaasasassa"
-							)
-						)
+						_react2.default.createElement("input", { id: "searchfield", name: "searchfield", type: "text" }),
+						_react2.default.createElement("img", { src: "./image/searchicon.png", id: "searchsubmit" })
 					),
-					_react2.default.createElement(
-						"div",
-						{ className: "" },
-						"Yello"
-					)
+					_react2.default.createElement("div", { className: "" })
 				)
 			);
 		}

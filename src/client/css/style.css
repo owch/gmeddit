@@ -161,4 +161,38 @@
     user-select: none;
     font: normal normal normal normal 13px / normal Arial, sans-serif;
     padding: 15px 0px 0px;
+    display:inline-block;
 }
+
+#searchfield {
+  float:left;
+  width:590px;
+  height:30px;
+  line-height:27px;
+  text-indent:10px;
+  font-family:arial, sans-serif;
+  font-size:1em;
+  color:#333;
+  background: #fff;
+  border:solid 1px #d9d9d9;
+  border-top:solid 1px #c0c0c0;
+  border-right:none;
+  display:inline-block;
+}
+
+
+#searchsubmit {
+  cursor:pointer;
+  width:60px;
+  height: 30px;
+  line-height:0;
+  font-size:0;
+  text-indent:-999px;
+  color: transparent;
+  background:  no-repeat #4d90fe center;
+  border: 1px solid #3079ED;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  display:inline-block;
+}
+

@@ -10,20 +10,19 @@ var headerRow = React.createClass({
 						<div id="left-header-col-1">
 							<a href="#inbox" title="Gmail" id="left-header-col-2">
 								<span id="left-header-span">
-									<img className="google-logo" src="./image/google_2015_logo.png"/>
+									<img className="google-logo" src="./image/google_logo.png"/>
 								</span>
 							</a>						
 						</div>
 					</div>
-					<div className="mid-header-col">
-						<div className="mid-header-col-2">
-							<div className="mid-header-col-3">
-								HelloassaasasassaHelloassaasasassaHelloassaasasassaHelloassaasasassaHelloassaasasassa
-							</div>							
-						</div>						
+					<div className="mid-header-col">																		
+	                        <input id="searchfield" name="searchfield" type="text" />
+	                        
+	                        <img src="./image/searchicon.png" id="searchsubmit" />	                    
+	                    
 					</div>
 					<div className="">
-						Yello
+						
 					</div>
 				</div>
 			</div>
