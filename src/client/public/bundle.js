@@ -23849,8 +23849,13 @@
 									{ id: "refresh-item" },
 									_react2.default.createElement(
 										"div",
-										{ id: "refresh-item-1" },
-										_react2.default.createElement("div", { id: "refresh-item-2" })
+										{ id: "multi-select-item" },
+										_react2.default.createElement(
+											"div",
+											{ id: "multi-select-item-1" },
+											_react2.default.createElement("span", { id: "multi-select-box" }),
+											_react2.default.createElement("div", { id: "multi-select-dropdown" })
+										)
 									)
 								)
 							),
@@ -23875,8 +23880,85 @@
 									{ id: "refresh-item" },
 									_react2.default.createElement(
 										"div",
-										{ id: "refresh-item-1" },
-										_react2.default.createElement("div", { id: "refresh-item-2" })
+										{ id: "more-item" },
+										_react2.default.createElement(
+											"span",
+											{ id: "more-item-1" },
+											"More"
+										),
+										_react2.default.createElement("div", { id: "more-item-2" })
+									)
+								)
+							)
+						)
+					),
+					_react2.default.createElement(
+						"div",
+						null,
+						_react2.default.createElement(
+							"div",
+							{ id: "DIV_1" },
+							_react2.default.createElement("span", { id: "SPAN_2" }),
+							_react2.default.createElement(
+								"div",
+								{ id: "DIV_3" },
+								_react2.default.createElement(
+									"span",
+									{ id: "SPAN_4" },
+									_react2.default.createElement(
+										"span",
+										{ id: "SPAN_5" },
+										"1"
+									),
+									"\u2013",
+									_react2.default.createElement(
+										"span",
+										{ id: "SPAN_6" },
+										"50"
+									),
+									" of ",
+									_react2.default.createElement(
+										"span",
+										{ id: "SPAN_7" },
+										"510"
+									)
+								)
+							),
+							_react2.default.createElement(
+								"div",
+								{ id: "DIV_8" },
+								_react2.default.createElement("span", { id: "SPAN_9" }),
+								_react2.default.createElement("img", { src: "images/cleardot.gif", alt: "", id: "IMG_10" })
+							),
+							_react2.default.createElement(
+								"div",
+								{ id: "DIV_11" },
+								_react2.default.createElement("span", { id: "SPAN_12" }),
+								_react2.default.createElement("img", { src: "images/cleardot.gif", alt: "", id: "IMG_13" })
+							),
+							_react2.default.createElement(
+								"div",
+								{ id: "DIV_14" },
+								_react2.default.createElement(
+									"div",
+									{ id: "DIV_15" },
+									_react2.default.createElement(
+										"div",
+										{ id: "DIV_16" },
+										_react2.default.createElement(
+											"div",
+											{ id: "DIV_17" },
+											"Newest"
+										)
+									),
+									_react2.default.createElement(
+										"div",
+										{ id: "DIV_18" },
+										_react2.default.createElement(
+											"div",
+											{ id: "DIV_19" },
+											"Oldest"
+										)
 									)
 								)
 							)
