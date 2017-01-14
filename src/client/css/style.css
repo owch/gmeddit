@@ -246,3 +246,90 @@
     outline: rgb(255, 255, 255) none 0px;
     padding: 0px 12px;
 }
+
+.headerdos {
+	background-color: white;
+	height: 45px;
+	width: 100%;
+	display: block;
+	margin-top: 60px;
+}
+
+.gmail-row {
+	border: 1px solid #ddd;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	background: white;
+	height: 50px;
+	padding-top: 4px;
+}
+
+#gmail-drop {
+    bottom: 0px;
+    color: rgb(221, 75, 57);
+    cursor: pointer;
+    display: inline-block;
+    height: 29px;
+    left: 0px;
+    position: relative;
+    float: left;
+    right: 0px;
+    top: 0px;
+    width: 61.7344px;
+    z-index: 5;
+    column-rule-color: rgb(221, 75, 57);
+    perspective-origin: 37.8594px 14.5px;
+    transform-origin: 37.8594px 14.5px;
+    user-select: none;
+    border: 0px none rgb(221, 75, 57);
+    font: normal normal normal normal 18.6667px / 29px arial, sans-serif;
+    outline: rgb(221, 75, 57) none 0px;
+    padding: 0px;
+}
+
+#gmail-drop-span {
+    color: rgb(221, 75, 57);
+    cursor: pointer;
+    column-rule-color: rgb(221, 75, 57);
+    user-select: none;
+    border: 0px none rgb(221, 75, 57);
+    font: normal normal normal normal 18.6667px / 29px arial, sans-serif;
+    outline: rgb(221, 75, 57) none 0px;    
+    float: right;
+}
+
+#gmail-drop-btn {
+    bottom: -14.5px;
+    color: rgb(221, 75, 57);
+    cursor: pointer;
+    display: inline-block;
+    height: 5px;
+    left: 0px;
+    position: relative;
+    right: 0px;
+    top: 14.5px;
+    vertical-align: middle;
+    width: 7px;
+    column-rule-color: rgb(221, 75, 57);
+    perspective-origin: 3.5px 2.5px;
+    transform-origin: 3.5px 2.5px;
+    user-select: none;
+    background: rgba(0, 0, 0, 0) url("https://ssl.gstatic.com/ui/v1/zippy/arrow_down_red_2x.png") no-repeat scroll 0% 0% / 7px 4px padding-box border-box;
+    border: 0px none rgb(221, 75, 57);
+    font: normal normal normal normal 0px / 29px arial, sans-serif;
+    margin: -2px 0px 0px 6px;
+    outline: rgb(221, 75, 57) none 0px;
+}
+
+#left-gmail-col {
+	height: 50px;
+	width: 202px;	
+}
+
+#gmail-drop-block {
+	width: 75.73px;
+	height: 30px;
+	margin-left: 20px;
+	margin-top: 3px;
+}

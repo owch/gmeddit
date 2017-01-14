@@ -2,6 +2,7 @@ import React from 'react';
 import axios from 'axios';
 
 import NavBar from './navBar.jsx';
+import OptBar from './optionBar.jsx';
 
 var MainComp = React.createClass({
 	update: function() {
@@ -18,7 +19,12 @@ var MainComp = React.createClass({
 		this.update();
 		return (
 			<div>
-				<NavBar/>
+				<div>
+					<NavBar/>
+				</div>				
+				<div>
+					<OptBar/>
+				</div>
 			</div>
 		);
 	}

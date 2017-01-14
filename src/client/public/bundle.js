@@ -22077,6 +22077,10 @@
 	
 	var _navBar2 = _interopRequireDefault(_navBar);
 	
+	var _optionBar = __webpack_require__(/*! ./optionBar.jsx */ 206);
+	
+	var _optionBar2 = _interopRequireDefault(_optionBar);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	var MainComp = _react2.default.createClass({
@@ -22095,7 +22099,16 @@
 			return _react2.default.createElement(
 				'div',
 				null,
-				_react2.default.createElement(_navBar2.default, null)
+				_react2.default.createElement(
+					'div',
+					null,
+					_react2.default.createElement(_navBar2.default, null)
+				),
+				_react2.default.createElement(
+					'div',
+					null,
+					_react2.default.createElement(_optionBar2.default, null)
+				)
 			);
 		}
 	});
@@ -23777,6 +23790,57 @@
 	});
 	
 	module.exports = navBar;
+
+/***/ },
+/* 206 */
+/*!**************************************!*\
+  !*** ./src/client/app/optionBar.jsx ***!
+  \**************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var optionBar = _react2.default.createClass({
+		displayName: "optionBar",
+	
+	
+		render: function render() {
+			return _react2.default.createElement(
+				"div",
+				{ className: "headerdos" },
+				_react2.default.createElement(
+					"div",
+					{ className: "gmail-row" },
+					_react2.default.createElement(
+						"div",
+						{ id: "left-gmail-col" },
+						_react2.default.createElement(
+							"div",
+							{ id: "gmail-drop-block" },
+							_react2.default.createElement(
+								"div",
+								{ id: "gmail-drop" },
+								_react2.default.createElement(
+									"span",
+									{ id: "gmail-drop-span" },
+									"Gmail"
+								)
+							),
+							_react2.default.createElement("div", { id: "gmail-drop-btn" })
+						)
+					)
+				)
+			);
+		}
+	});
+	
+	module.exports = optionBar;
 
 /***/ }
 /******/ ]);
