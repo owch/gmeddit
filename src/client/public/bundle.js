@@ -23694,28 +23694,48 @@
 					{ id: "topbar" },
 					_react2.default.createElement(
 						"div",
-						{ id: "left-header-col" },
+						{ id: "left-header-col", className: "col-xs-2" },
 						_react2.default.createElement(
 							"div",
 							{ id: "left-header-col-1" },
 							_react2.default.createElement(
 								"a",
 								{ href: "#inbox", title: "Gmail", id: "left-header-col-2" },
+								_react2.default.createElement("span", { id: "left-header-span" })
+							)
+						)
+					),
+					_react2.default.createElement(
+						"div",
+						{ id: "mid-header-col", className: "col-xs-9" },
+						_react2.default.createElement(
+							"div",
+							{ id: "mid-header-col-1" },
+							_react2.default.createElement(
+								"div",
+								{ id: "mid-header-col-2" },
 								_react2.default.createElement(
-									"span",
-									{ id: "left-header-span" },
-									_react2.default.createElement("img", { className: "google-logo", src: "./image/google_logo.png" })
+									"form",
+									null,
+									_react2.default.createElement("input", { id: "searchfield", name: "searchfield", type: "text" }),
+									_react2.default.createElement("img", { src: "./image/searchicon.png", id: "searchsubmit" })
 								)
 							)
 						)
 					),
 					_react2.default.createElement(
 						"div",
-						{ className: "mid-header-col" },
-						_react2.default.createElement("input", { id: "searchfield", name: "searchfield", type: "text" }),
-						_react2.default.createElement("img", { src: "./image/searchicon.png", id: "searchsubmit" })
-					),
-					_react2.default.createElement("div", { className: "" })
+						{ id: "right-header-col", className: "col-xs-1" },
+						_react2.default.createElement(
+							"div",
+							{ id: "right-header-col-2" },
+							_react2.default.createElement(
+								"a",
+								{ id: "login-button", href: "twitter.com" },
+								"Sign in"
+							)
+						)
+					)
 				)
 			);
 		}
