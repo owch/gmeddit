@@ -324,6 +324,8 @@
 #left-gmail-col {
 	height: 50px;
 	width: 202px;	
+	display: inline-block;
+	float: left;
 }
 
 #gmail-drop-block {
@@ -332,3 +334,103 @@
 	margin-left: 20px;
 	margin-top: 3px;
 }
+
+#mid-gmail-col {
+	display: inline-block;
+}
+
+.mid-action-items {
+	margin-top: 5px;	
+}
+
+.mid-action-item {
+	display: inline-block;
+	float: left;
+}
+
+.mid-action-col {
+    bottom: 0px;
+    display: inline-block;
+    height: 29px;
+    left: 0px;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    white-space: nowrap;
+    width: 88px;
+    perspective-origin: 44px 14.5px;
+    transform-origin: 44px 14.5px;
+    font: normal normal normal normal 16px / normal arial, sans-serif;
+}
+
+#refresh-item {
+    bottom: 0px;
+    color: rgb(68, 68, 68);
+    cursor: default;
+    display: inline-block;
+    height: 29px;
+    left: 0px;
+    min-width: 54px;
+    position: relative;
+    right: 0px;
+    text-align: center;
+    top: 0px;
+    white-space: nowrap;
+    width: 72px;
+    column-rule-color: rgb(68, 68, 68);
+    perspective-origin: 36px 14.5px;
+    transform-origin: 36px 14.5px;
+    user-select: none;
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(top, rgb(245, 245, 245), rgb(241, 241, 241)) repeat scroll 0% 0% / auto padding-box border-box;
+    border: 1px solid rgba(0, 0, 0, 0.0980392);
+    border-radius: 2px 2px 2px 2px;
+    font: normal normal bold normal 11px / 27px arial, sans-serif;
+    margin: 0px 16px 0px 0px;
+    outline: rgb(68, 68, 68) none 0px;
+    padding: 0px 8px;
+}
+
+#refresh-item-1 {
+    color: rgb(68, 68, 68);
+    cursor: default;
+    display: inline-block;
+    height: 29px;
+    text-align: center;
+    white-space: nowrap;
+    width: 33px;
+    column-rule-color: rgb(68, 68, 68);
+    perspective-origin: 16.5px 13.5px;
+    transform-origin: 16.5px 13.5px;
+    user-select: none;
+    border: 0px none rgb(68, 68, 68);
+    font: normal normal bold normal 11px / 27px arial, sans-serif;
+    outline: rgb(68, 68, 68) none 0px;
+}
+
+#refresh-item-2 {
+    background-position: 0px -124px;
+    bottom: 0px;
+    color: rgb(68, 68, 68);
+    cursor: default;
+    display: inline-block;
+    height: 21px;
+    left: 0px;
+    opacity: 0.55;
+    position: relative;
+    right: 0px;
+    text-align: center;
+    top: 0px;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 21px;
+    column-rule-color: rgb(68, 68, 68);
+    perspective-origin: 10.5px 10.5px;
+    transform-origin: 10.5px 10.5px;
+    user-select: none;
+    background: rgba(0, 0, 0, 0) url("https://ssl.gstatic.com/mail/sprites/general_2x_black-b568fe8c9e825d95d0a5f98bfdf32c66.png") no-repeat scroll 0px -124px / 21px 559px padding-box border-box;
+    border: 0px none rgb(68, 68, 68);
+    font: normal normal bold normal 11px / 27px arial, sans-serif;
+    margin: 3.5px 6px;
+    outline: rgb(68, 68, 68) none 0px;
+}
+

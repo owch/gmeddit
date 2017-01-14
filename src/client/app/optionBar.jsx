@@ -15,7 +15,37 @@ var optionBar = React.createClass({
 							</div>
 						</div>
 					</div>
-				</div>
+					<div id="mid-gmail-col">
+						<div className="mid-action-items">
+							<div className="mid-action-item">
+								<div id="refresh-item">
+									<div id="refresh-item-1">
+										<div id="refresh-item-2">
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div className="mid-action-item">
+								<div id="refresh-item">
+									<div id="refresh-item-1">
+										<div id="refresh-item-2">
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div className="mid-action-item">
+								<div id="refresh-item">
+									<div id="refresh-item-1">
+										<div id="refresh-item-2">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>						
+					</div>
+				</div>					
 			</div>
 		);
 	}

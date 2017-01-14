@@ -23834,6 +23834,53 @@
 							),
 							_react2.default.createElement("div", { id: "gmail-drop-btn" })
 						)
+					),
+					_react2.default.createElement(
+						"div",
+						{ id: "mid-gmail-col" },
+						_react2.default.createElement(
+							"div",
+							{ className: "mid-action-items" },
+							_react2.default.createElement(
+								"div",
+								{ className: "mid-action-item" },
+								_react2.default.createElement(
+									"div",
+									{ id: "refresh-item" },
+									_react2.default.createElement(
+										"div",
+										{ id: "refresh-item-1" },
+										_react2.default.createElement("div", { id: "refresh-item-2" })
+									)
+								)
+							),
+							_react2.default.createElement(
+								"div",
+								{ className: "mid-action-item" },
+								_react2.default.createElement(
+									"div",
+									{ id: "refresh-item" },
+									_react2.default.createElement(
+										"div",
+										{ id: "refresh-item-1" },
+										_react2.default.createElement("div", { id: "refresh-item-2" })
+									)
+								)
+							),
+							_react2.default.createElement(
+								"div",
+								{ className: "mid-action-item" },
+								_react2.default.createElement(
+									"div",
+									{ id: "refresh-item" },
+									_react2.default.createElement(
+										"div",
+										{ id: "refresh-item-1" },
+										_react2.default.createElement("div", { id: "refresh-item-2" })
+									)
+								)
+							)
+						)
 					)
 				)
 			);
