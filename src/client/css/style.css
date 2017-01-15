@@ -754,7 +754,7 @@
     outline: rgb(184, 184, 184) none 0px;
 }
 
-#DIV_1 {
+#setting {
     bottom: 0px;
     display: inline-block;
     height: 29px;
@@ -769,9 +769,9 @@
     transform-origin: 44px 14.5px;
     font: normal normal normal normal 16px / normal arial, sans-serif;
     margin-right: 45px;
-}/*#DIV_1*/
+}
 
-#DIV_2 {
+#setting-2 {
     bottom: 0px;
     color: rgb(68, 68, 68);
     cursor: default;
@@ -797,9 +797,9 @@
     margin: 0px 0px 0px 16px;
     outline: rgb(68, 68, 68) none 0px;
     padding: 0px 8px;
-}/*#DIV_2*/
+}
 
-#DIV_3 {
+#setting-3 {
     background-position: 0px -147px;
     bottom: 0px;
     color: rgb(68, 68, 68);
@@ -824,9 +824,9 @@
     font: normal normal bold normal 11px / 27px arial, sans-serif;
     margin: 2px 0px 0px;
     outline: rgb(68, 68, 68) none 0px;
-}/*#DIV_3*/
+}
 
-#DIV_4 {
+#setting-4 {
     background-position: 0px 1px;
     bottom: 0px;
     color: rgb(68, 68, 68);
@@ -851,5 +851,72 @@
     font: normal normal bold normal 0px / 27px arial, sans-serif;
     margin: 2px 0px 0px 3px;
     outline: rgb(68, 68, 68) none 0px;
-}/*#DIV_4*/
+}
+
+#menu-block {
+    height: 300px;
+    width: 186px;
+    perspective-origin: 93px 150px;
+    transform-origin: 93px 150px;
+    user-select: none;
+    font: normal normal normal normal 16px / normal arial, sans-serif;
+    margin: 0px 16px 0px 0px;
+}
+
+.mainContent {
+	display: inline-block;
+}
+
+.left-block {
+	display: inline-block;
+}
+
+#compose-block {
+    height: 37px;
+    width: 163px;
+    perspective-origin: 81.5px 18.5px;
+    transform-origin: 81.5px 18.5px;
+    user-select: none;
+    font: normal normal normal normal 12.8px / normal arial, sans-serif;
+    margin: 0px 0px 0px 23px;
+}/*#DIV_1*/
+
+#compose-block-2 {
+    height: 37px;
+    width: 155px;
+    perspective-origin: 77.5px 18.5px;
+    transform-origin: 77.5px 18.5px;
+    user-select: none;
+    font: normal normal normal normal 16px / normal arial, sans-serif;
+    margin: 0px 0px 0px 8px;
+    padding: 0px 4px 8px 0px;
+}/*#DIV_2*/
+
+#compose-block-3 {
+    bottom: 0px;
+    color: rgb(255, 255, 255);
+    cursor: default;
+    display: inline-block;
+    height: 29px;
+    left: 0px;
+    min-width: 115px;
+    position: relative;
+    right: 0px;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.0980392) 0px 1px 0px;
+    text-transform: uppercase;
+    top: 0px;
+    white-space: nowrap;
+    width: 97px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 57.5px 14.5px;
+    transform-origin: 57.5px 14.5px;
+    user-select: none;
+    background: rgb(209, 72, 54) -webkit-linear-gradient(top, rgb(221, 75, 57), rgb(209, 72, 54)) repeat scroll 0% 0% / auto padding-box border-box;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 2px 2px 2px 2px;
+    font: normal normal bold normal 11px / 27px arial, sans-serif;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 0px 8px;
+}/*#DIV_3*/
 

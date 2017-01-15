@@ -22081,6 +22081,10 @@
 	
 	var _optionBar2 = _interopRequireDefault(_optionBar);
 	
+	var _contentArea = __webpack_require__(/*! ./contentArea.jsx */ 207);
+	
+	var _contentArea2 = _interopRequireDefault(_contentArea);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	var MainComp = _react2.default.createClass({
@@ -22108,6 +22112,11 @@
 					'div',
 					null,
 					_react2.default.createElement(_optionBar2.default, null)
+				),
+				_react2.default.createElement(
+					'div',
+					null,
+					_react2.default.createElement(_contentArea2.default, null)
 				)
 			);
 		}
@@ -23938,12 +23947,29 @@
 						),
 						_react2.default.createElement(
 							"div",
-							{ id: "DIV_1" },
+							{ id: "setting" },
 							_react2.default.createElement(
 								"div",
-								{ id: "DIV_2" },
-								_react2.default.createElement("div", { id: "DIV_3" }),
-								_react2.default.createElement("div", { id: "DIV_4" })
+								{ id: "setting-2" },
+								_react2.default.createElement("div", { id: "setting-3" }),
+								_react2.default.createElement("div", { id: "setting-4" })
+							)
+						)
+					)
+				),
+				_react2.default.createElement(
+					"div",
+					{ id: "menu-block" },
+					_react2.default.createElement(
+						"div",
+						{ id: "compose-block" },
+						_react2.default.createElement(
+							"div",
+							{ id: "compose-block-2" },
+							_react2.default.createElement(
+								"div",
+								{ id: "compose-block-3" },
+								"COMPOSE"
 							)
 						)
 					)
@@ -23953,6 +23979,37 @@
 	});
 	
 	module.exports = optionBar;
+
+/***/ },
+/* 207 */
+/*!****************************************!*\
+  !*** ./src/client/app/contentArea.jsx ***!
+  \****************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var contentArea = _react2.default.createClass({
+		displayName: "contentArea",
+	
+	
+		render: function render() {
+			return _react2.default.createElement(
+				"div",
+				{ className: "mainContent" },
+				"adads"
+			);
+		}
+	
+	});
+	
+	module.exports = contentArea;
 
 /***/ }
 /******/ ]);

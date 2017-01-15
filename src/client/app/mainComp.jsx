@@ -3,6 +3,8 @@ import axios from 'axios';
 
 import NavBar from './navBar.jsx';
 import OptBar from './optionBar.jsx';
+import ContentArea from './contentArea.jsx';
+
 
 var MainComp = React.createClass({
 	update: function() {
@@ -24,6 +26,9 @@ var MainComp = React.createClass({
 				</div>				
 				<div>
 					<OptBar/>
+				</div>
+				<div>
+					<ContentArea/>
 				</div>
 			</div>
 		);

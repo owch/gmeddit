@@ -50,7 +50,7 @@ var optionBar = React.createClass({
 					</div>
 					<div id="right-gmail-col">
 						<div id="page-range-block">							
-							<span id="page-range"><span id="page-range-1">1</span>–<span id="page-range-2">50</span> of <span id="page-range-3">510</span></span>														
+								<span id="page-range"><span id="page-range-1">1</span>–<span id="page-range-2">50</span> of <span id="page-range-3">510</span></span>														
 						</div>
 						<div id="page-arrows">
 							<div id="left-nav-arrow">
@@ -60,16 +60,25 @@ var optionBar = React.createClass({
 								<span id="right-nav-arrow-s"></span><img src="image/cleardot.gif" alt="" id="right-nav-arrow-1" />
 							</div>
 						</div>	
-						<div id="DIV_1">
-							<div id="DIV_2">
-								<div id="DIV_3">
+						<div id="setting">
+							<div id="setting-2">
+								<div id="setting-3">
 								</div>
-								<div id="DIV_4">
+								<div id="setting-4">
 								</div>
 							</div>
 						</div>						
 					</div>
-				</div>					
+				</div>
+				<div id="menu-block">
+					<div id="compose-block">
+						<div id="compose-block-2">
+							<div id="compose-block-3">
+								COMPOSE
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		);
 	}
