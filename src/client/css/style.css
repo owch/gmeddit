@@ -879,7 +879,7 @@
     user-select: none;
     font: normal normal normal normal 12.8px / normal arial, sans-serif;
     margin: 0px 0px 0px 23px;
-}/*#DIV_1*/
+}
 
 #compose-block-2 {
     height: 37px;
@@ -890,7 +890,7 @@
     font: normal normal normal normal 16px / normal arial, sans-serif;
     margin: 0px 0px 0px 8px;
     padding: 0px 4px 8px 0px;
-}/*#DIV_2*/
+}
 
 #compose-block-3 {
     bottom: 0px;
@@ -918,5 +918,147 @@
     font: normal normal bold normal 11px / 27px arial, sans-serif;
     outline: rgb(255, 255, 255) none 0px;
     padding: 0px 8px;
-}/*#DIV_3*/
+    margin-top: 4px;
+}
 
+#menu-items {
+    height: 72px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 186px;
+    perspective-origin: 93px 36px;
+    transform-origin: 93px 36px;
+    user-select: none;
+    font: normal normal normal normal 12.8px / normal arial, sans-serif;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.inbox {
+    height: 18px;
+    white-space: nowrap;
+    width: 168px;
+    perspective-origin: 93px 9px;
+    transform-origin: 93px 9px;
+    user-select: none;
+    border-left: 4px solid rgb(221, 75, 57);
+    font: normal normal normal normal 12.8px / normal arial, sans-serif;
+    padding: 0px 0px 0px 14px;
+}
+
+.inbox-2 {
+    height: 18px;
+    white-space: nowrap;
+    width: 168px;
+    perspective-origin: 86px 9px;
+    transform-origin: 86px 9px;
+    user-select: none;
+    font: normal normal normal normal 12.8px / normal arial, sans-serif;
+    margin: 0px 0px 0px -4px;
+    padding: 0px 4px 0px 0px;
+}
+
+.inbox-4 {
+    bottom: 0px;
+    height: 16px;
+    left: 0px;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    white-space: nowrap;
+    width: 168px;
+    perspective-origin: 84px 9px;
+    transform-origin: 84px 9px;
+    user-select: none;
+    font: normal normal normal normal 12.8px / normal arial, sans-serif;
+    padding: 1px 0px;
+}
+
+.inbox-5 {
+    color: rgb(34, 34, 34);
+    height: 16px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 151px;
+    column-rule-color: rgb(34, 34, 34);
+    perspective-origin: 75.5px 8px;
+    transform-origin: 75.5px 8px;
+    user-select: none;
+    border: 0px none rgb(34, 34, 34);
+    font: normal normal normal normal 12.8px / normal arial, sans-serif;
+    margin: 0px 0px 0px 17px;
+    outline: rgb(34, 34, 34) none 0px;
+    overflow: hidden;
+}
+
+.inbox-3 {
+    color: rgb(221, 75, 57);
+    cursor: pointer;
+    vertical-align: middle;
+    white-space: nowrap;
+    column-rule-color: rgb(221, 75, 57);
+    user-select: none;
+    border: 0px none rgb(221, 75, 57);
+    font: normal normal bold normal 12.8px / normal arial, sans-serif;
+    margin: 0px 4px 0px 0px;
+    outline: rgb(221, 75, 57) none 0px;
+}
+
+.inbox-red {
+    color: rgb(221, 75, 57);
+    cursor: pointer;
+    text-decoration: none;
+    white-space: nowrap;
+    column-rule-color: rgb(221, 75, 57);
+    user-select: none;
+    border: 0px none rgb(221, 75, 57);
+    font: normal normal bold normal 12.8px / normal arial, sans-serif;
+    outline: rgb(221, 75, 57) none 0px;
+}/*#A_8*/
+
+.non-inbox {
+    height: 18px;
+    white-space: nowrap;
+    width: 172px;
+    perspective-origin: 93px 9px;
+    transform-origin: 93px 9px;
+    user-select: none;
+    font: normal normal normal normal 12.8px / normal arial, sans-serif;
+    padding: 0px 0px 0px 14px;
+}/
+
+.non-inbox-2 {
+    height: 18px;
+    white-space: nowrap;
+    width: 168px;
+    perspective-origin: 86px 9px;
+    transform-origin: 86px 9px;
+    user-select: none;
+    font: normal normal normal normal 12.8px / normal arial, sans-serif;
+    padding: 0px 4px 0px 0px;
+}
+
+.non-inbox-3 {
+    color: rgb(34, 34, 34);
+    cursor: pointer;
+    vertical-align: middle;
+    white-space: nowrap;
+    column-rule-color: rgb(34, 34, 34);
+    user-select: none;
+    border: 0px none rgb(34, 34, 34);
+    font: normal normal normal normal 12.8px / normal arial, sans-serif;
+    margin: 0px 4px 0px 0px;
+    outline: rgb(34, 34, 34) none 0px;
+}
+
+.inbox-black {
+    color: rgb(34, 34, 34);
+    cursor: pointer;
+    text-decoration: none;
+    white-space: nowrap;
+    column-rule-color: rgb(34, 34, 34);
+    user-select: none;
+    border: 0px none rgb(34, 34, 34);
+    font: normal normal normal normal 12.8px / normal arial, sans-serif;
+    outline: rgb(34, 34, 34) none 0px;
+}

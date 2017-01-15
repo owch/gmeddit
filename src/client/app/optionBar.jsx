@@ -78,6 +78,45 @@ var optionBar = React.createClass({
 							</div>
 						</div>
 					</div>
+
+					<div id="menu-items">
+					    <div className="inbox">
+					        <div className="inbox-2">
+					            <div className="inbox-4">					                
+					                <div className="inbox-5">
+					                    <span className="inbox-3"><a href="" title="Inbox" tabindex="0" className="inbox-red">Inbox</a></span>
+					                </div>
+					            </div>
+					        </div>
+					    </div>
+					    <div className="non-inbox">
+							<div className="non-inbox-2">
+								<div className="inbox-4">
+									<div className="inbox-5">
+										<span className="non-inbox-3"><a href="" title="Starred" tabindex="-1" className="inbox-black">Starred</a></span>
+									</div>
+								</div>
+							</div>
+						</div>	
+						<div className="non-inbox">
+							<div className="non-inbox-2">
+								<div className="inbox-4">
+									<div className="inbox-5">
+										<span className="non-inbox-3"><a href="" title="Sent Mail" tabindex="-1" className="inbox-black">Sent Mail</a></span>
+									</div>
+								</div>
+							</div>
+						</div>	
+						<div className="non-inbox">
+							<div className="non-inbox-2">
+								<div className="inbox-4">
+									<div className="inbox-5">
+										<span className="non-inbox-3"><a href="" title="Drafts" tabindex="-1" className="inbox-black">Drafts</a></span>
+									</div>
+								</div>
+							</div>
+						</div>							   
+					</div>
 				</div>
 			</div>
 		);

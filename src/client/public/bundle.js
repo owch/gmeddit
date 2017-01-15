@@ -23972,6 +23972,110 @@
 								"COMPOSE"
 							)
 						)
+					),
+					_react2.default.createElement(
+						"div",
+						{ id: "menu-items" },
+						_react2.default.createElement(
+							"div",
+							{ className: "inbox" },
+							_react2.default.createElement(
+								"div",
+								{ className: "inbox-2" },
+								_react2.default.createElement(
+									"div",
+									{ className: "inbox-4" },
+									_react2.default.createElement(
+										"div",
+										{ className: "inbox-5" },
+										_react2.default.createElement(
+											"span",
+											{ className: "inbox-3" },
+											_react2.default.createElement(
+												"a",
+												{ href: "", title: "Inbox", tabindex: "0", className: "inbox-red" },
+												"Inbox"
+											)
+										)
+									)
+								)
+							)
+						),
+						_react2.default.createElement(
+							"div",
+							{ className: "non-inbox" },
+							_react2.default.createElement(
+								"div",
+								{ className: "non-inbox-2" },
+								_react2.default.createElement(
+									"div",
+									{ className: "inbox-4" },
+									_react2.default.createElement(
+										"div",
+										{ className: "inbox-5" },
+										_react2.default.createElement(
+											"span",
+											{ className: "non-inbox-3" },
+											_react2.default.createElement(
+												"a",
+												{ href: "", title: "Starred", tabindex: "-1", className: "inbox-black" },
+												"Starred"
+											)
+										)
+									)
+								)
+							)
+						),
+						_react2.default.createElement(
+							"div",
+							{ className: "non-inbox" },
+							_react2.default.createElement(
+								"div",
+								{ className: "non-inbox-2" },
+								_react2.default.createElement(
+									"div",
+									{ className: "inbox-4" },
+									_react2.default.createElement(
+										"div",
+										{ className: "inbox-5" },
+										_react2.default.createElement(
+											"span",
+											{ className: "non-inbox-3" },
+											_react2.default.createElement(
+												"a",
+												{ href: "", title: "Sent Mail", tabindex: "-1", className: "inbox-black" },
+												"Sent Mail"
+											)
+										)
+									)
+								)
+							)
+						),
+						_react2.default.createElement(
+							"div",
+							{ className: "non-inbox" },
+							_react2.default.createElement(
+								"div",
+								{ className: "non-inbox-2" },
+								_react2.default.createElement(
+									"div",
+									{ className: "inbox-4" },
+									_react2.default.createElement(
+										"div",
+										{ className: "inbox-5" },
+										_react2.default.createElement(
+											"span",
+											{ className: "non-inbox-3" },
+											_react2.default.createElement(
+												"a",
+												{ href: "", title: "Drafts", tabindex: "-1", className: "inbox-black" },
+												"Drafts"
+											)
+										)
+									)
+								)
+							)
+						)
 					)
 				)
 			);
