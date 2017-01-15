@@ -48,33 +48,26 @@ var optionBar = React.createClass({
 							</div>
 						</div>						
 					</div>
-					<div>
+					<div id="right-gmail-col">
+						<div id="page-range-block">							
+							<span id="page-range"><span id="page-range-1">1</span>–<span id="page-range-2">50</span> of <span id="page-range-3">510</span></span>														
+						</div>
+						<div id="page-arrows">
+							<div id="left-nav-arrow">
+								<span id="left-nav-arrow-s"></span><img src="image/cleardot.gif" alt="" id="left-nav-arrow-1" />
+							</div>						
+							<div id="right-nav-arrow">
+								<span id="right-nav-arrow-s"></span><img src="image/cleardot.gif" alt="" id="right-nav-arrow-1" />
+							</div>
+						</div>	
 						<div id="DIV_1">
-							<span id="SPAN_2"></span>
-							<div id="DIV_3">
-								<span id="SPAN_4"><span id="SPAN_5">1</span>–<span id="SPAN_6">50</span> of <span id="SPAN_7">510</span></span>
-							</div>
-							<div id="DIV_8">
-								<span id="SPAN_9"></span><img src="images/cleardot.gif" alt="" id="IMG_10" />
-							</div>
-							<div id="DIV_11">
-								<span id="SPAN_12"></span><img src="images/cleardot.gif" alt="" id="IMG_13" />
-							</div>
-							<div id="DIV_14">
-								<div id="DIV_15">
-									<div id="DIV_16">
-										<div id="DIV_17">
-											Newest
-										</div>
-									</div>
-									<div id="DIV_18">
-										<div id="DIV_19">
-											Oldest
-										</div>
-									</div>
+							<div id="DIV_2">
+								<div id="DIV_3">
+								</div>
+								<div id="DIV_4">
 								</div>
 							</div>
-						</div>
+						</div>						
 					</div>
 				</div>					
 			</div>

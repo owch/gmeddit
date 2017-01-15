@@ -23894,73 +23894,56 @@
 					),
 					_react2.default.createElement(
 						"div",
-						null,
+						{ id: "right-gmail-col" },
+						_react2.default.createElement(
+							"div",
+							{ id: "page-range-block" },
+							_react2.default.createElement(
+								"span",
+								{ id: "page-range" },
+								_react2.default.createElement(
+									"span",
+									{ id: "page-range-1" },
+									"1"
+								),
+								"\u2013",
+								_react2.default.createElement(
+									"span",
+									{ id: "page-range-2" },
+									"50"
+								),
+								" of ",
+								_react2.default.createElement(
+									"span",
+									{ id: "page-range-3" },
+									"510"
+								)
+							)
+						),
+						_react2.default.createElement(
+							"div",
+							{ id: "page-arrows" },
+							_react2.default.createElement(
+								"div",
+								{ id: "left-nav-arrow" },
+								_react2.default.createElement("span", { id: "left-nav-arrow-s" }),
+								_react2.default.createElement("img", { src: "image/cleardot.gif", alt: "", id: "left-nav-arrow-1" })
+							),
+							_react2.default.createElement(
+								"div",
+								{ id: "right-nav-arrow" },
+								_react2.default.createElement("span", { id: "right-nav-arrow-s" }),
+								_react2.default.createElement("img", { src: "image/cleardot.gif", alt: "", id: "right-nav-arrow-1" })
+							)
+						),
 						_react2.default.createElement(
 							"div",
 							{ id: "DIV_1" },
-							_react2.default.createElement("span", { id: "SPAN_2" }),
 							_react2.default.createElement(
 								"div",
-								{ id: "DIV_3" },
-								_react2.default.createElement(
-									"span",
-									{ id: "SPAN_4" },
-									_react2.default.createElement(
-										"span",
-										{ id: "SPAN_5" },
-										"1"
-									),
-									"\u2013",
-									_react2.default.createElement(
-										"span",
-										{ id: "SPAN_6" },
-										"50"
-									),
-									" of ",
-									_react2.default.createElement(
-										"span",
-										{ id: "SPAN_7" },
-										"510"
-									)
-								)
-							),
-							_react2.default.createElement(
-								"div",
-								{ id: "DIV_8" },
-								_react2.default.createElement("span", { id: "SPAN_9" }),
-								_react2.default.createElement("img", { src: "images/cleardot.gif", alt: "", id: "IMG_10" })
-							),
-							_react2.default.createElement(
-								"div",
-								{ id: "DIV_11" },
-								_react2.default.createElement("span", { id: "SPAN_12" }),
-								_react2.default.createElement("img", { src: "images/cleardot.gif", alt: "", id: "IMG_13" })
-							),
-							_react2.default.createElement(
-								"div",
-								{ id: "DIV_14" },
-								_react2.default.createElement(
-									"div",
-									{ id: "DIV_15" },
-									_react2.default.createElement(
-										"div",
-										{ id: "DIV_16" },
-										_react2.default.createElement(
-											"div",
-											{ id: "DIV_17" },
-											"Newest"
-										)
-									),
-									_react2.default.createElement(
-										"div",
-										{ id: "DIV_18" },
-										_react2.default.createElement(
-											"div",
-											{ id: "DIV_19" },
-											"Oldest"
-										)
-									)
-								)
+								{ id: "DIV_2" },
+								_react2.default.createElement("div", { id: "DIV_3" }),
+								_react2.default.createElement("div", { id: "DIV_4" })
 							)
 						)
 					)

@@ -579,137 +579,277 @@
     outline: rgb(68, 68, 68) none 0px;
 }
 
-#DIV_1 {
+#right-gmail-col {
+	display: inline-block;
+	float: right;
+	margin-top: 5px;
+}
+
+#page-range-block {
+	display: inline-block;	
+	height: 30px;
+	margin-right: 8px;
+}
+
+
+#page-range {
+    color: rgb(34, 34, 34);
+    cursor: pointer;
+    text-align: left;
+    white-space: nowrap;
+    column-rule-color: rgb(34, 34, 34);
+    user-select: none;
+    border: 0px none rgb(34, 34, 34);
+    font: normal normal normal normal 12.8px / normal arial, sans-serif;
+    outline: rgb(34, 34, 34) none 0px;   
+    margin-top: 2px;
+}
+
+#page-range-1, #page-range-2 {
+    color: rgb(34, 34, 34);
+    cursor: pointer;
+    text-align: left;
+    white-space: nowrap;
+    column-rule-color: rgb(34, 34, 34);
+    user-select: none;
+    border: 0px none rgb(34, 34, 34);
+    font: normal normal bold normal 12.8px / normal arial, sans-serif;
+    outline: rgb(34, 34, 34) none 0px;
+}
+
+#page-range-3 {
+    color: rgb(34, 34, 34);
+    cursor: pointer;
+    text-align: left;
+    white-space: nowrap;
+    column-rule-color: rgb(34, 34, 34);
+    user-select: none;
+    border: 0px none rgb(34, 34, 34);
+    font: normal normal bold normal 12.8px / normal arial, sans-serif;
+    outline: rgb(34, 34, 34) none 0px;
+}
+
+#left-nav-arrow {
     bottom: 0px;
-    box-sizing: border-box;
-    color: rgb(51, 51, 51);
-    height: 60px;
+    color: rgb(184, 184, 184);
+    cursor: default;
+    display: inline-block;
+    height: 29px;
     left: 0px;
-    min-height: auto;
-    min-width: 200px;
+    min-width: 36px;
     position: relative;
     right: 0px;
-    text-size-adjust: 100%;
+    text-align: center;
     top: 0px;
+    white-space: nowrap;
+    width: 34px;
+    z-index: 1;
+    column-rule-color: rgb(184, 184, 184);
+    perspective-origin: 18px 14.5px;
+    transform-origin: 18px 14.5px;
+    user-select: none;	
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(top, rgb(245, 245, 245), rgb(241, 241, 241)) repeat scroll 0% 0% / auto padding-box border-box;
+    border: 1px solid rgba(0, 0, 0, 0.0980392);
+    border-right: 0px;
+    border-radius: 2px 0 0 2px;
+    font: normal normal bold normal 11px / 27px arial, sans-serif;
+    outline: rgb(184, 184, 184) none 0px;
+}
+
+#left-nav-arrow-s {
+    color: rgb(184, 184, 184);
+    cursor: default;
+    text-align: center;
+    white-space: nowrap;
+    column-rule-color: rgb(184, 184, 184);
+    user-select: none;
+    border: 0px none rgb(184, 184, 184);
+    font: normal normal bold normal 11px / 27px arial, sans-serif;
+    margin: 0px -3px 0px 0px;
+    outline: rgb(184, 184, 184) none 0px;
+}
+
+#left-nav-arrow-1 {
+    background-position: -21px -21px;
+    color: rgb(184, 184, 184);
+    cursor: default;
+    height: 21px;
+    opacity: 0.333;
+    text-align: center;
     vertical-align: middle;
     white-space: nowrap;
-    width: 294.281px;
-    z-index: 986;
-    column-rule-color: rgb(51, 51, 51);
-    perspective-origin: 147.141px 30px;
-    transform-origin: 325px 30px;
+    width: 21px;
+    column-rule-color: rgb(184, 184, 184);
+    perspective-origin: 10.5px 10.5px;
+    transform-origin: 10.5px 10.5px;
     user-select: none;
-    border: 0px none rgb(51, 51, 51);
-    flex: 0 2 auto;
-    font: normal normal normal normal 13px / 58px Arial, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
+    background: rgba(0, 0, 0, 0) url("https://ssl.gstatic.com/ui/v1/icons/mail/sprite_black2.png") no-repeat scroll -21px -21px / auto padding-box border-box;
+    border: 0px none rgb(184, 184, 184);
+    font: normal normal bold normal 11px / 27px arial, sans-serif;
+    margin: 2px 0px 0px;
+    outline: rgb(184, 184, 184) none 0px;
+}
+
+#page-arrows {
+	display: inline-block;
+}
+
+#right-nav-arrow {
+    bottom: 0px;
+    color: rgb(184, 184, 184);
+    cursor: default;
+    display: inline-block;
+    height: 29px;
+    left: 0px;
+    min-width: 34px;
+    position: relative;
+    right: 0px;
+    text-align: center;
+    top: 0px;
+    white-space: nowrap;
+    width: 36px;
+    z-index: 1;
+    column-rule-color: rgb(184, 184, 184);
+    perspective-origin: 18px 14.5px;
+    transform-origin: 18px 14.5px;
+    user-select: none;	
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(top, rgb(245, 245, 245), rgb(241, 241, 241)) repeat scroll 0% 0% / auto padding-box border-box;
+    border: 1px solid rgba(0, 0, 0, 0.0980392);
+    border-radius: 2px 0 0 2px;
+    font: normal normal bold normal 11px / 27px arial, sans-serif;
+    outline: rgb(184, 184, 184) none 0px;
+}
+
+#right-nav-arrow-s {
+    color: rgb(184, 184, 184);
+    cursor: default;
+    text-align: center;
+    white-space: nowrap;
+    column-rule-color: rgb(184, 184, 184);
+    user-select: none;
+    border: 0px none rgb(184, 184, 184);
+    font: normal normal bold normal 11px / 27px arial, sans-serif;
+    margin: 0px -3px 0px 0px;
+    outline: rgb(184, 184, 184) none 0px;
+}
+
+#right-nav-arrow-1 {
+    background-position: -21px -21px;
+    color: rgb(184, 184, 184);
+    cursor: default;
+    height: 21px;
+    opacity: 0.333;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 21px;
+    column-rule-color: rgb(184, 184, 184);
+    perspective-origin: 10.5px 10.5px;
+    transform-origin: 10.5px 10.5px;
+    user-select: none;
+    background: rgba(0, 0, 0, 0) url("https://ssl.gstatic.com/ui/v1/icons/mail/sprite_black2.png") no-repeat scroll -42px -21px / auto padding-box border-box;
+    border: 0px none rgb(184, 184, 184);
+    font: normal normal bold normal 11px / 27px arial, sans-serif;
+    margin: 2px 0px 0px;
+    outline: rgb(184, 184, 184) none 0px;
+}
+
+#DIV_1 {
+    bottom: 0px;
+    display: inline-block;
+    height: 29px;
+    left: 0px;
+    position: relative;
+    right: 0px;
+    text-align: right;
+    top: 0px;
+    white-space: nowrap;
+    width: 72px;
+    perspective-origin: 44px 14.5px;
+    transform-origin: 44px 14.5px;
+    font: normal normal normal normal 16px / normal arial, sans-serif;
+    margin-right: 45px;
 }/*#DIV_1*/
 
 #DIV_2 {
     bottom: 0px;
-    box-sizing: border-box;
-    color: rgb(51, 51, 51);
-    height: 60px;
+    color: rgb(68, 68, 68);
+    cursor: default;
+    display: inline-block;
+    height: 29px;
     left: 0px;
-    min-width: 200px;
+    min-width: 54px;
     position: relative;
     right: 0px;
-    text-size-adjust: 100%;
+    text-align: center;
     top: 0px;
-    vertical-align: middle;
     white-space: nowrap;
-    width: 383px;
-    z-index: 986;
-    column-rule-color: rgb(51, 51, 51);
-    perspective-origin: 191.5px 30px;
-    transform-origin: 191.5px 30px;
+    width: 72px;
+    z-index: 2;
+    column-rule-color: rgb(68, 68, 68);
+    perspective-origin: 36px 14.5px;
+    transform-origin: 36px 14.5px;
     user-select: none;
-    border: 0px none rgb(51, 51, 51);
-    flex: 0 2 auto;
-    font: normal normal normal normal 13px / 58px Arial, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(top, rgb(245, 245, 245), rgb(241, 241, 241)) repeat scroll 0% 0% / auto padding-box border-box;
+    border: 1px solid rgba(0, 0, 0, 0.0980392);
+    border-radius: 2px 2px 2px 2px;
+    font: normal normal bold normal 11px / 27px arial, sans-serif;
+    margin: 0px 0px 0px 16px;
+    outline: rgb(68, 68, 68) none 0px;
+    padding: 0px 8px;
 }/*#DIV_2*/
 
 #DIV_3 {
-    bottom: -30px;
-    box-sizing: border-box;
-    color: rgb(51, 51, 51);
-    height: 30px;
+    background-position: 0px -147px;
+    bottom: 0px;
+    color: rgb(68, 68, 68);
+    cursor: default;
+    display: inline-block;
+    height: 21px;
     left: 0px;
+    opacity: 0.55;
     position: relative;
     right: 0px;
-    text-size-adjust: 100%;
-    top: 30px;
+    text-align: center;
+    top: 0px;
     vertical-align: middle;
     white-space: nowrap;
-    width: 383px;
-    column-rule-color: rgb(51, 51, 51);
-    perspective-origin: 191.5px 15px;
-    transform: matrix(1, 0, 0, 1, 0, -15);
-    transform-origin: 191.5px 15px;
+    width: 21px;
+    column-rule-color: rgb(68, 68, 68);
+    perspective-origin: 10.5px 10.5px;
+    transform-origin: 10.5px 10.5px;
     user-select: none;
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal normal normal 13px / 58px Arial, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
+    background: rgba(0, 0, 0, 0) url("https://ssl.gstatic.com/mail/sprites/general_2x_black-b568fe8c9e825d95d0a5f98bfdf32c66.png") no-repeat scroll 0px -147px / 21px 559px padding-box border-box;
+    border: 0px none rgb(68, 68, 68);
+    font: normal normal bold normal 11px / 27px arial, sans-serif;
+    margin: 2px 0px 0px;
+    outline: rgb(68, 68, 68) none 0px;
 }/*#DIV_3*/
 
-#FORM_4 {
-    box-sizing: border-box;
-    color: rgb(51, 51, 51);
-    height: 30px;
-    text-size-adjust: 100%;
-    white-space: nowrap;
-    width: 383px;
-    column-rule-color: rgb(51, 51, 51);
-    perspective-origin: 191.5px 15px;
-    transform-origin: 191.5px 15px;
-    user-select: none;
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal normal normal 13px / 58px Arial, sans-serif;
-    margin: 0px 0px 13px;
-    outline: rgb(51, 51, 51) none 0px;
-}/*#FORM_4*/
-
-#INPUT_5 {
-    color: rgb(51, 51, 51);
-    display: block;
-    float: left;
-    height: 30px;
-    text-indent: 10px;
-    text-size-adjust: 100%;
-    white-space: nowrap;
-    width: 590px;
-    column-rule-color: rgb(51, 51, 51);
-    perspective-origin: 295px 15px;
-    transform-origin: 295px 15px;
-    border-top: 1px solid rgb(192, 192, 192);
-    border-right: 0px none rgb(51, 51, 51);
-    border-bottom: 1px solid rgb(217, 217, 217);
-    border-left: 1px solid rgb(217, 217, 217);
-    font: normal normal normal normal 13px / 27px arial, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-}
-
-#IMG_6 {
-    background-position: 50% 50%;
-    box-sizing: border-box;
-    color: rgba(0, 0, 0, 0);
-    cursor: pointer;
+#DIV_4 {
+    background-position: 0px 1px;
+    bottom: 0px;
+    color: rgb(68, 68, 68);
+    cursor: default;
     display: inline-block;
-    height: 30px;
-    text-indent: -999px;
-    text-size-adjust: 100%;
+    height: 6px;
+    left: 0px;
+    opacity: 0.55;
+    position: relative;
+    right: 0px;
+    text-align: center;
+    top: 0px;
     vertical-align: middle;
     white-space: nowrap;
-    width: 60px;
-    column-rule-color: rgba(0, 0, 0, 0);
-    perspective-origin: 30px 15px;
-    transform-origin: 30px 15px;
+    width: 7px;
+    column-rule-color: rgb(68, 68, 68);
+    perspective-origin: 3.5px 3px;
+    transform-origin: 3.5px 3px;
     user-select: none;
-    background: rgb(77, 144, 254) none no-repeat scroll 50% 50% / auto padding-box border-box;
-    border: 1px solid rgb(48, 121, 237);
-    border-radius: 2px 2px 2px 2px;
-    font: normal normal normal normal 0px / 0px Arial, sans-serif;
-    outline: rgba(0, 0, 0, 0) none 0px;
-}
+    background: rgba(0, 0, 0, 0) url("https://ssl.gstatic.com/ui/v1/zippy/arrow_down_2x.png") no-repeat scroll 0px 1px / 7px 4px padding-box border-box;
+    border: 0px none rgb(68, 68, 68);
+    font: normal normal bold normal 0px / 27px arial, sans-serif;
+    margin: 2px 0px 0px 3px;
+    outline: rgb(68, 68, 68) none 0px;
+}/*#DIV_4*/
 
